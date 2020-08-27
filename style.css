@@ -1,0 +1,66 @@
+* {
+
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: Arial;
+
+}
+
+.wrapper {
+
+    width: 700px;
+    margin: auto;
+
+}
+
+h1 {
+
+
+    display: inline-block;
+
+}
+
+a {
+ 
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px 5px 5px;
+
+}
+
+a:hover {
+
+    color: red;
+
+}
+
+header a {
+
+    display: inline-block;
+    float: right;
+
+}
+
+fieldset {
+
+    width: 300px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+
+}
+
+input {
+
+    float: right;
+    border-radius: 2px;
+    
+
+}
+
+#submit {
+
+    float: left;
+
+}
+
+
