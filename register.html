@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="author" content="kader arnold">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<title>Sign Up!</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Registration / Sign Up Form</h1>
+				<hr>
+			</header>
+			<form method="POST" action="register.php">
+				<fieldset>
+					<legend>Register Here!</legend>
+					<label for="email">Email: </label>
+					<input type="email" maxlength="40" minlength="2" required="required">
+					<br>
+					<label for="password">Password: </label>
+					<input type="password" minlength="8" maxlength="40" required="required">	
+					<br>
+					<label for="password-confirm">Confirm Password: </label>
+					<input type="password" minlength="8" maxlength="8" required="required">	
+					<br>
+					<input type="submit" name="submit" value="submit">
+				</fieldset>
+			</form>
+            <footer>
+				<hr>
+				<br>
+				<ul>
+					<li><a>Reach Out</a></li>
+					<li><a>About Us</a></li>
+					<li><a>Terms and Conditions</a></li>
+				</ul>
+            </footer>
+		</div>
+	</body>
+</html>

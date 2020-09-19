@@ -41,9 +41,10 @@ legend {
 
 	border-style: double;
 	border-radius: 2px;
-	padding: 4px 4px 4px 4px;
+	padding: 2px 2px 2px 2px;
 	background-color: lightgrey;
-	opacity: 10%;
+	opacity: 50%;
+	display: inline-block;
 
 }
 
@@ -127,6 +128,24 @@ footer ul li {
 
 }
 
+.register-link {
+
+	padding-left: 210px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+
+}
+
+.register-link, .register-redirect {
+
+	font-size: 8px;
+	margin: auto;
+	width: 29%;
+
+
+}
 
 
 
