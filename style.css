@@ -103,6 +103,10 @@ footer ul li {
 
 .recovery-links {
 
+	margin: auto;
+	width: 300px;	
+	height: 10px;
+	padding: 0px 10px 10px 10px;
 	
 
 }
@@ -110,13 +114,16 @@ footer ul li {
 .recovery-links ul li {
 
 	
-	width: 20%;
-
-	justify-content: space-between;
+	margin: auto;
 
 	display: inline-block;
 	list-style-type: none;
 	
+}
+
+.recovery-links ul li a {
+
+	font-size: 8px;
 
 }
 
