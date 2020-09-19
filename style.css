@@ -8,23 +8,42 @@
 
 .wrapper {
 
-    width: 700px;
+    width: 685px;
+	height: 600px;
     margin: auto;
+	background-color: gray;
+
+}
+
+header {
+
+	background-color: purple;
 
 }
 
 h1 {
 
-
+	margin: 5px 5px 5px 5px;
     display: inline-block;
 
 }
 
 a {
- 
+ 	font-size: small;
     text-decoration: none;
     color: black;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 10px 10px 5px;
+	
+
+}
+
+legend {
+
+	border-style: double;
+	border-radius: 2px;
+	padding: 4px 4px 4px 4px;
+	background-color: lightgrey;
+	opacity: 10%;
 
 }
 
@@ -59,8 +78,49 @@ input {
 
 #submit {
 
-    float: left;
+    float: right;
+	padding: 2px 2px 2px 2px;
+
 
 }
+
+footer {
+
+	bottom: 0;
+	position: absolute;
+	margin: 10px 0px 0px 0px;
+	background-color: purple;
+	width: 685px;
+}
+
+footer ul li {
+
+	display: inline-block;
+	list-style-type: none;
+
+
+}
+
+.recovery-links {
+
+	
+
+}
+
+.recovery-links ul li {
+
+	
+	width: 20%;
+
+	justify-content: space-between;
+
+	display: inline-block;
+	list-style-type: none;
+	
+
+}
+
+
+
 
 
