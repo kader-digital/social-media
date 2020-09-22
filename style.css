@@ -23,13 +23,14 @@ header {
 
 h1 {
 
-	margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
     display: inline-block;
 
 }
 
 a {
- 	font-size: small;
+
+    font-size: small;
     text-decoration: none;
     color: black;
     padding: 10px 10px 10px 5px;
@@ -87,8 +88,7 @@ input {
 
 footer {
 
-	bottom: 0;
-	position: absolute;
+	position: fixed;
 	margin: 10px 0px 0px 0px;
 	background-color: purple;
 	width: 685px;
@@ -116,7 +116,6 @@ footer ul li {
 
 	
 	margin: auto;
-
 	display: inline-block;
 	list-style-type: none;
 	
